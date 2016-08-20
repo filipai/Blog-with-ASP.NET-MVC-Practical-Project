@@ -13,5 +13,7 @@ namespace Blog.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<Blog.Models.Post> Posts { get; set; }
     }
 }
